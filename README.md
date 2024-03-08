@@ -1,4 +1,4 @@
-# TestHttpdServer
+# TestHttpdPHPServer
 
 ## ローカル環境構築
 
@@ -14,7 +14,7 @@ docker container run --name test-httpd-server --rm -d -p 8080:80 test-httpd-serv
 - http://localhost:8080/
   - htdocs/index.html が表示。
 - http://localhost:8080/userinfo/userinfo.php
-  - htdocs/userinfo/userinfo.php の実行結果が表示。
+  - htdocs/userinfo/userinfo.php でのPHPの実行結果が表示。
 
 ## ローカル環境削除
 
